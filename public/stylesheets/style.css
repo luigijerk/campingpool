@@ -1,8 +1,594 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* global classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }
 
+@media screen and (max-width:767px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+body {
+    background: #ff9;
+    margin: 0;
+    padding: 0;
+}
+body * {
+    box-sizing: border-box;
+    line-height: 1em;
+}
+
+p, td p {
+    line-height: 1.3em;
+    font-size: 18px;
+    margin: 0;
+}
 a {
-  color: #00B7FF;
+    color: #00F;
+    text-decoration: underline;
+}
+a:hover, a:focus {
+    color: #99F;
+}
+h1, td h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0;
+    position: relative;
+    z-index: 75;
+}
+h2, td h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+h3, td h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+@media (max-width:767px) {
+    h1, h2, h3 {
+        text-align: center;
+    }
+}
+
+#banner {
+    border: 4px solid #000;
+    background: #0c9;
+    padding: 6px 10px;
+    position: relative;
+    z-index: 100;
+}
+#banner img {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+}
+#taskbar {
+    background-color: #f06;
+    border: 4px solid #000;
+    height: 40px;
+    display: table;
+    width: 100%;
+    padding: 6px 0;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+}
+#taskbar li {
+    display: table-cell;
+    font-size: 26px;
+    text-align: center;
+    padding: 0 6px;
+}
+#taskbar li a {
+    text-decoration: none;
+    color: #000;
+}
+#taskbar li a:hover, #taskbar li a:focus {
+    color: #fff;
+}
+#taskbar .active a, #taskbar li:hover a, #taskbar li:focus a {
+    color: #fff !important;
+}
+@media (max-width:767px) {
+    #taskbar {
+        padding: 0;
+    }
+    #taskbar li {
+        display: block;
+        padding: 8px 0;
+        border-top: 1px solid rgba(0,0,0,0.3);
+        font-size: 20px;
+    }
+    #taskbar li:first-child {
+        border-top: none;
+    }
+    #taskbar li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #taskbar .active, #taskbar li:hover, #taskbar li:focus {
+        background-color: #dd004b;
+    }
+}
+
+.grey {
+    background-color: #eee;
+}
+.star {
+    color: #800000;
+}
+#expl {
+    margin: 30px 5% 0;
+    padding-bottom: 20px;
+}
+#expl p {
+    font-size: 20px;;
+}
+#expl #formula {
+    font-size: 24px;
+    margin-top: 20px;
+    display: block;
+}
+
+/* home */
+.football1, .football2 {
+    background-repeat: repeat-y;
+    background-size: contain;
+    width: 100px;
+}
+.football1 {
+    background-image: url('images/football1.png');
+}
+.football2 {
+    background-image: url('images/football2.png');
+}
+#news .content {
+    padding: 0 140px 30px;
+}
+@media (max-width:767px) {
+    #news .content {
+        padding: 0 20px 20px;
+    }
+}
+.post-date {
+    font-style: italic;
+    border-top: 2px dashed #000;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+h1 + .post-date {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+
+/* player bios */
+#players table {
+    border-collapse: collapse;
+}
+#players td {
+    vertical-align: top;
+    padding: 0 40px 30px;
+    border: none;
+}
+#players td:first-child {
+    background: #FC6;
+}
+#players td:first-child img, #players td:first-child a {
+    width: 200px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#players h2 {
+    padding-top: 0;
+}
+@media (max-width:767px) {
+    #players td {
+        display: block;
+        text-align: center;
+        background: none !important;
+        width: 100%;
+    }
+    #players td p {
+        text-align: left;
+    }
+}
+
+/* statbook */
+#statbook h1, #machine h1, #standings h1 {
+    width: 33.33333333%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+#statbook h1 a, #machine h1 a, #standings h1 a {
+    color: #838383;
+    text-decoration: none;
+}
+#statbook h1 a:hover, #statbook h1 a:focus, #machine h1 a:hover, #machine h1 a:focus, #standings h1 a:hover, #standings h1 a:focus {
+    color: #000;
+}
+#statbook h1.active a, #machine h1.active a, #standings h1.active a {
+    color: #000;
+}
+@media (max-width:767px) {
+    #statbook h1, #machine h1, #standings h1 {
+        font-size: 24px;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+@media (max-width:1039px) and (min-width:768px) {
+    #statbook h1, #machine h1, #standings h1 {
+        font-size: 28px;
+    }
+}
+.table-holder {
+    overflow-y: hidden;
+}
+#main {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+#main th, #main td {
+    font-size: 18px;
+    width: 11.1111111111%;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px 0;
+}
+#main th {
+    background: url("images/bg.gif") no-repeat left center;
+}
+#statbook button {
+    border: 0;
+    background: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    cursor: pointer;
+}
+#statbook #name, #statbook #record {
+    color: black;
+    cursor: auto;
+}
+#main .empty {
+    background-image: none;
+}
+
+/* stat machine */
+#machine .results {
+    border-collapse: collapse;
+    width: 600px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+@media (max-width:767px) {
+    #machine .results {
+        margin: 20px 0 0;
+    }
+}
+#machine .results td, #machine .results th {
+    border: 1px solid black;
+    width: auto;
+    padding: 6px;
+}
+#machine #box {
+    border: 4px double black;
+    background: #fc6;
+    padding: 20px;
+    position: relative;
+}
+#machine #box .search {
+    display: inline-block;
+    width: 20%;
+    padding: 0 10px;
+    vertical-align: top;
+}
+#machine #box .search b {
+    margin-bottom: 10px;
+    display: block;
+}
+#machine #box .search:first-child p:nth-of-type(2) b {
+    margin-top: 30px;
+}
+#machine #box .search input[type="submit"] {
+    position: absolute;
+    bottom: 30px;
+}
+#machine #box .search select {
+    margin-bottom: 15px;
+}
+#machine #box .search select:nth-child(even) {
+    margin-bottom: 30px;
+}
+#machine #box .search input[type="text"] {
+    margin-top: 15px;
+}
+#machine #box .search input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+#machine #box .search input[type="radio"] {
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+@media (max-width:767px) {
+    #machine #box {
+        padding-bottom: 50px;
+    }
+    #machine #box .search {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* standings overview */
+#standings #season-standings {
+    margin: 20px auto 0;
+    border-collapse: collapse;
+    background: #fff;
+    border: 2px solid #000;
+}
+#standings .table-holder {
+    margin-bottom: 40px;
+}
+#standings #season-standings td, #standings #season-standings th {
+    width: auto;
+    padding: 10px 20px;
+    border: 2px solid #000;
+}
+.mh {
+    background: #fff200;
+}
+.mg {
+    background: #00aeef;
+}
+.ricky {
+    background: #f7911e;
+}
+.mk {
+    background: #179f49;
+}
+.anth {
+    background: #a853a0;
+}
+.kevin {
+    background: #01579f;
+}
+.dan {
+    background: #c2b59b;
+}
+.kyle {
+    background: #ed1c24;
+}
+.jon {
+    background: #87ca93;
+}
+.matt {
+    background: #d1e17c;
+}
+.josh {
+    background: #a97c50;
+}
+.brad {
+    background: #7f732e;
+}
+.nate {
+    background: #f27ea3;
+}
+.noel {
+    background: #7e2517;
+}
+.brian {
+    background: #fff19f;
+}
+.tyler {
+    background: #f6d0f7;
+}
+
+/* hof */
+#hof h1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hof table {
+    background-color: white;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    min-width: 600px;
+    margin: 0 auto;
+}
+#hof th, #hof td {
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+}
+
+/* history */
+#history {
+    position: relative;
+}
+#history #history-links {
+    width: 250px;
+    position: absolute;
+    left: 0;
+    background-color: #fc6;
+    padding: 30px 20px 30px 40px;
+}
+#history #history-links #links > a {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#history #history-links ul {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+#history #history-links li {
+    margin-bottom: 5px;
+}
+#history #history-links #to-top {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fc6;
+    width: 250px;
+    padding: 15px 40px;
+}
+#history #history-content {
+    padding: 0 40px 20px 290px;
+}
+@media (max-width:767px) {
+    #history {
+        padding-bottom: 100px;
+    }
+    #history h1 {
+        background: #ff9;
+    }
+    #history #history-links {
+        position: static;
+        width: 100%;
+        background: none;
+        padding-top: 0;
+    }
+    #history #history-links li {
+        display: inline-block;
+    }
+    #history #history-links ul {
+        margin: 0;
+    }
+    #history #history-links a {
+        display: inline-block;
+        background: #fc6;
+        border-radius: 5px;
+        margin: 6px;
+        padding: 10px;
+        border: 1px solid #000;
+        text-decoration: none;
+    }
+    #history #history-links #to-top {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #ff9;
+        width: 100%;
+        padding: 15px 40px;
+        z-index: 50;
+    }
+    #history #history-content {
+        padding-left: 40px;
+    }
+}
+
+/* side bets */
+#sidebets .left {
+    width: 250px;
+    background: #fc6;
+}
+#sidebets #bets {
+    padding: 0 40px 20px 290px;
+}
+#sidebets #bets span {
+    display: block;
+    margin: 10px 0;
+}
+.red {
+    color: #f00;
+}
+.green {
+    color: #008000;
+}
+#sidebets p:last-child {
+    border-top: 2px dashed black;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+@media (max-width:767px) {
+    #sidebets #bets {
+        padding-left: 40px;
+    }
+    #sidebets h2 {
+        text-align: left;
+    }
+}
+
+/* rules */
+#rules #points {
+    width: 250px;
+    padding: 30px 40px;
+    background: #fc6;
+}
+#rules #points h3 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+#rules #points h3:first-of-type {
+    margin-top: 0;
+}
+#rules #points li {
+    margin: 4px 0;
+}
+#rules #points td, #rules #points th {
+    text-align: left;
+    padding: 3px 0;
+}
+#rules #points td:nth-child(2) {
+    text-align: center;
+}
+#rules #general {
+    padding: 0 40px 20px 290px;
+}
+#rules #general li {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+@media (max-width:767px) {
+    #rules #points {
+        width: 100%;
+        padding: 0 40px;
+        background: none;
+    }
+    #rules #general {
+        padding: 0 40px;
+    }
+    #rules #general h2:first-of-type {
+        margin-top: 30px;
+    }
+    #rules h2, #rules h3 {
+        text-align: left;
+    }
+}
+
+/* match entry */
+#matchentry th {
+    font-size: 20px;
 }
