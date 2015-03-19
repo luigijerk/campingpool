@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  table
+    tbody
+      tr
+        td
+        td.bio: h1= title
+      each player, i in players
+        tr
+          td
+            a(title=player.name): img(src="/" + player.img_url)
+          td.bio
+            h2= player.name + ' (' + player.dates_played + ')'
+            p= player.bio

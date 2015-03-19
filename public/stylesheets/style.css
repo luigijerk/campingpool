@@ -154,10 +154,10 @@ h3, td h3 {
     width: 100px;
 }
 .football1 {
-    background-image: url('images/football1.png');
+    background-image: url('/images/football1.png');
 }
 .football2 {
-    background-image: url('images/football2.png');
+    background-image: url('/images/football2.png');
 }
 #news .content {
     padding: 0 140px 30px;
@@ -261,7 +261,7 @@ h1 + .post-date {
     padding: 8px 0;
 }
 #main th {
-    background: url("images/bg.gif") no-repeat left center;
+    background: url("/images/bg.gif") no-repeat left center;
 }
 #statbook button {
     border: 0;

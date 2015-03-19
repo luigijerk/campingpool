@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.left.football1.column.desktop(style="min-height: 900px")
+  div.right.football2.column.desktop(style="min-height: 900px")
+  div.content.column(style="min-height: 900px")
+    h1=title
+    each post, i in news
+      p.post-date=post.post_date
+      p!=post.content

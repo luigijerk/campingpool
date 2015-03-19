@@ -1,0 +1,17 @@
+mixin menuItem(activeUrl, menuString)
+  if (url==activeUrl)
+    li.active: a(href="/" + activeUrl)= menuString
+  else
+    li: a(href="/" + activeUrl)= menuString
+header
+  div#banner
+    a(href="/"): img(src="/images/Banner.png" alt="Camping Pool")
+
+  ul#taskbar
+    +menuItem('players', 'Player Bios')
+    +menuItem('statbook', 'Statbook')
+    +menuItem('hof', 'Hall of Fame')
+    +menuItem('history', 'History')
+    +menuItem('sidebets', 'Side Bets')
+    +menuItem('rules', 'Rules')
+    li: a(href="http://football.fantasysports.yahoo.com/f1/126715") League
