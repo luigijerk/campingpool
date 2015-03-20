@@ -29,4 +29,19 @@ router.get('/players', function(req, res) {
   });
 });
 
+/* GET history page. */
+router.get('/history', function(req, res) {
+  var db = req.db;
+  db.collection('history').find().toArray(function (err, items) {
+    for (var i=0; i<items.length; i++) {
+      items[i].showTitle = !helper.hasNumbers(items[i].anchor);
+    }
+    res.render('history', {
+      "history" : items,
+      "title" : "League History",
+      "url" : "history"
+    });
+  });
+});
+
 module.exports = router;

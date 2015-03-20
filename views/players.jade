@@ -12,4 +12,4 @@ block content
             a(title=player.name): img(src="/" + player.img_url)
           td.bio
             h2= player.name + ' (' + player.dates_played + ')'
-            p= player.bio
+            p!= player.bio

@@ -6,4 +6,9 @@ var formatDateTime = function(dateString) {
 };
 helper.formatDateTime = formatDateTime;
 
+var hasNumbers = function(string) {
+  return /[0-9]+/.test(string);
+};
+helper.hasNumbers = hasNumbers;
+
 module.exports = helper;

@@ -1,9 +1,9 @@
 extends layout
 
 block content
-  div.left.football1.column.desktop(style="min-height: 900px")
-  div.right.football2.column.desktop(style="min-height: 900px")
-  div.content.column(style="min-height: 900px")
+  div.left.football1.column.desktop
+  div.right.football2.column.desktop
+  div.content.column
     h1=title
     each post, i in news
       p.post-date=post.post_date

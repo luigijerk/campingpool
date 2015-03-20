@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9ff9331-2ea0-4b5a-9c13-f408f7170299" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\bin\mongoose.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\contRun.sh" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\aggregate\aggregate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\aggregate\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\aggregate\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\doc-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\express\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\express\connection-sharing\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\express\connection-sharing\app.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\express\connection-sharing\modelA.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\express\connection-sharing\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\express\connection-sharing\routes.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\geospatial\geoJSONSchema.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\geospatial\geoJSONexample.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\geospatial\geospatial.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\geospatial\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\geospatial\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\globalschemas\gs_example.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\globalschemas\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\lean\lean.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\lean\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\lean\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\mapreduce\mapreduce.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\mapreduce\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\mapreduce\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\population\population-across-three-collections.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\population\population-basic.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\population\population-of-existing-doc.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\population\population-of-multiple-existing-docs.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\population\population-options.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\population\population-plain-objects.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\promises\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\promises\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\promises\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\querybuilder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\querybuilder\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\querybuilder\querybuilder.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\replicasets\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\replicasets\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\replicasets\replica-sets.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\schema\schema.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\schema\storing-schemas-as-json\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\schema\storing-schemas-as-json\schema.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\statics\person.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\examples\statics\statics.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\aggregate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\connectionstate.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\document.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\drivers\SPEC.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\drivers\node-mongodb-native\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\drivers\node-mongodb-native\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\cast.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\divergentArray.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\messages.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\missingSchema.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\overwriteModel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\validation.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\validator.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\error\version.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\internal.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\model.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\query.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\queryhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\querystream.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\array.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\boolean.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\date.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\documentarray.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\mixed.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\number.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schema\string.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schemadefault.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\schematype.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\statemachine.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\types\array.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\types\buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\types\documentarray.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\types\embedded.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\types\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\types\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\lib\virtualtype.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\hooks\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\hooks\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\hooks\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\hooks\hooks.alt.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\hooks\hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\hooks\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\hooks\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\admin.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\aggregation_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_cr.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_gssapi.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_plain.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_scram.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_x509.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\aggregation.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\batch\common.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\batch\ordered.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\batch\unordered.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\commands.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\core.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\geo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\query.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\shared.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\command_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\base_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\db_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\delete_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\get_more_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\insert_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\kill_cursor_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\query_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\update_command.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\base.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\mongos.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\read_preference.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\ha.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\options.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\repl_set.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\repl_set_state.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\strategies\ping_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\strategies\statistics_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server_capabilities.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\url_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursorstream.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\db.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\grid.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\gridstore.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\readstream.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\mongo_client.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\scope.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\lib\mongodb\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\HISTORY" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\browser_build\bson.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\browser_build\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\bson.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\bson.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\win32\ia32\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\win32\x64\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\wscript" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\binary_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\bson.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\bson_new.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\code.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\db_ref.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\double.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\float_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\long.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\max_key.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\min_key.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\timestamp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\.dntrc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\include_dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\nan.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\nan_implementation_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\nan_implementation_pre_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\nan_new.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\nan_string_bytes.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\gleak.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine_favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\auth_processes\mongodb.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos_context.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberosgss.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberosgss.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos_sspi.c" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos_sspi.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\worker.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\worker.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\.dntrc" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\include_dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\nan.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\nan_implementation_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\nan_implementation_pre_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\nan_new.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\nan_string_bytes.h" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\node_modules\nan\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\kerberos_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\kerberos_win32_test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\win32\security_buffer_descriptor_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\win32\security_buffer_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\win32\security_credentials_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\float.patch" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\util.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\component.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\readable.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\transform.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\writable.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mongodb\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpath\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\lib\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\test\promise.domain.test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\test\promise.test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mpromise\test\promises.Aplus.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\lib\collection\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\lib\collection\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\lib\collection\node.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\lib\env.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\lib\mquery.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\lib\permissions.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\node_modules\debug\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\node_modules\debug\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\node_modules\debug\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\node_modules\debug\lib\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\node_modules\debug\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\test\collection\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\test\collection\mongo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\test\collection\node.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\test\env.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\test\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\mquery\test\utils.test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\ms.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\test\support\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\ms\test\test.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\muri\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\regexp-clone\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\History.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\bench.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\component.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\lib\sliced.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\node_modules\sliced\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\package.json" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\release-items.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\static.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\node.js\campingpool\node_modules\mongoose\website.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/index.js" afterPath="$PROJECT_DIR$/helpers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/players.jade" afterPath="$PROJECT_DIR$/views/players.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+    </list>
+    <ignored path="campingpool.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="campingpool" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/history.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.86917293" vertical-offset="7514" max-vertical-offset="10404">
+              <caret line="476" column="35" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/header.jade" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/players.jade" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/helpers/index.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/history.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-943" />
+    <option name="y" value="548" />
+    <option name="width" value="943" />
+    <option name="height" value="844" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="campingpool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/xampp/htdocs/campingpool" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\node.js\campingpool\views" />
+      <recent name="E:\node.js\campingpool\public" />
+      <recent name="E:\node.js\campingpool\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\node.js\campingpool\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9ff9331-2ea0-4b5a-9c13-f408f7170299" name="Default" comment="" />
+      <created>1426640210798</created>
+      <option name="number" value="Default" />
+      <updated>1426640210798</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-943" y="548" width="943" height="844" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="255">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1258">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32452276" vertical-offset="0" max-vertical-offset="681">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/Banner.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09618105" vertical-offset="0" max-vertical-offset="707">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37482318" vertical-offset="92" max-vertical-offset="1258">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/players.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21640736" vertical-offset="0" max-vertical-offset="707">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/history.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86917293" vertical-offset="7514" max-vertical-offset="10404">
+          <caret line="476" column="35" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

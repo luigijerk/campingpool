@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  a(name="jump")
+  h1.mobile= title
+  div#history-links.column
+    div#links
+      a(href="#salary") The Salary Cap Years (1990s)
+      br
+      a(href="#first") First Draft (2003)
+      br
+      a(href="#early") The Early Yahoo Era
+      ul
+        li: a(href="#2004") 2004
+        li: a(href="#2005") 2005
+        li: a(href="#2006") 2006
+        li: a(href="#2007") 2007
+        li: a(href="#2008") 2008
+      a(href="#qb") The Keeper Era, Two Quarterbacks
+      ul
+        li: a(href="#2009") 2009
+        li: a(href="#2010") 2010
+      a(href="#modern") Modern Era
+      ul
+        li: a(href="#2011") 2011
+        li: a(href="#2012") 2012
+        li: a(href="#2013") 2013
+      div#to-top: a(href="#jump") To Top
+  div#history-content.column
+    h1.desktop= title
+    for item, i in history
+      a(name=item.anchor)
+      if item.showTitle
+        h2= item.era
+      if item.year && item.link
+        h3: a.year(href=item.link)= item.year
+      p!= item.description
