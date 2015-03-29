@@ -1,8 +1,10 @@
 doctype html
 html
   head
-    title= title
+    title= 'Camping Pool | ' + title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body(id=url)
+  body(id=id)
+    if toTop
+      a(name="jump")
     include header
     block content

@@ -3,6 +3,7 @@ mixin menuItem(activeUrl, menuString)
     li.active: a(href="/" + activeUrl)= menuString
   else
     li: a(href="/" + activeUrl)= menuString
+
 header
   div#banner
     a(href="/"): img(src="/images/Banner.png" alt="Camping Pool")

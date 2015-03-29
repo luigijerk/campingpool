@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  include header-statbook
+  div.table-holder
+    table#main
+      thead
+        tr
+          th.empty: button#name(disabled) Name
+          th.empty: button#record(disabled) Record
+          th: button#percent Win %
+          th: button#place Average Place
+          th: button#trans Transactions / year
+          th: button#points Points / wk
+          th: button#adp Adjusted#[span.star *] Points / wk
+          th: button#against Points Allowed / wk
+          th: button#adpa Adjusted#[span.star *] Points Allowed / wk
+      tbody
+        each player, i in players
+          - var color = 'white';
+          - if (i % 2 == 0) {
+          -    color = 'grey';
+          - }
+          tr(class=color)
+            td.name= player.name
+            if player.draw > 0
+              td.record= player.win + '-' + player.lose + '-' + player.draw
+            else
+              td.record= player.win + '-' + player.lose
+            td.percent= player.percentage
+            td.place= player.rankAverage
+            td.trans= player.transactionsAverageYear
+            td.points= player.pointsAverageWeek
+            td.adp= player.aPointsAverageWeek
+            td.against= player.pointsAllowedAverageWeek
+            td.adpa= player.aPointsAllowedAverageWeek
+  include expl

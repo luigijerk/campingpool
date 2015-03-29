@@ -132,7 +132,7 @@ h3, td h3 {
 }
 
 .grey {
-    background-color: #eee;
+    background-color: #ddd;
 }
 .star {
     color: #800000;
@@ -367,6 +367,9 @@ h1 + .post-date {
     width: auto;
     padding: 10px 20px;
     border: 2px solid #000;
+}
+#standings #season-standings td:first-child {
+    font-weight: bold;
 }
 .mh {
     background: #fff200;

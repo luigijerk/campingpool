@@ -1,6 +1,6 @@
 var express = require('express');
-var helper = require('../helpers');
 var router = express.Router();
+var helper = require('../helpers');
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -11,7 +11,8 @@ router.get('/', function(req, res) {
     }
     res.render('index', {
       "news" : items,
-      "title" : "Camping Pool",
+      "title" : "News",
+      "id" : "news",
       "url" : "news"
     });
   });
@@ -24,8 +25,18 @@ router.get('/players', function(req, res) {
     res.render('players', {
       "players" : items,
       "title" : "Player Bios",
+      "id" : "players",
       "url" : "players"
     });
+  });
+});
+
+/* GET hall of fame page */
+router.get('/hof', function(req, res) {
+  res.render('hof', {
+    "title" : "Hall of Fame",
+    "id" : "hof",
+    "url" : "hof"
   });
 });
 
@@ -39,8 +50,28 @@ router.get('/history', function(req, res) {
     res.render('history', {
       "history" : items,
       "title" : "League History",
-      "url" : "history"
+      "id" : "history",
+      "url" : "history",
+      "toTop" : true
     });
+  });
+});
+
+/* GET sidebets page */
+router.get('/sidebets', function(req, res) {
+  res.render('sidebets', {
+    "title" : "Side Bets",
+    "id" : "sidebets",
+    "url" : "sidebets"
+  });
+});
+
+/* GET rules page */
+router.get('/rules', function(req, res) {
+  res.render('rules', {
+    "title" : "Rules",
+    "id" : "rules",
+    "url" : "rules"
   });
 });
 

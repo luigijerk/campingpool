@@ -1,0 +1,110 @@
+extends layout
+
+mixin row(caption, points)
+  tr
+    td= caption
+    td= points
+
+block content
+  h1.mobile= title
+  div#points.column.left
+    h2 Roster
+    ol
+      li QB
+      li WR
+      li WR
+      li RB
+      li RB
+      li TE
+      li WR/TE
+      li WR/RB
+      li K
+      li DB
+      li DB
+      li DL
+      li LB
+      li BN
+      li BN
+      li BN
+      li BN
+      li BN
+      li BN
+      li BN
+      li BN
+    h2 Scoring
+    h3 Offense
+    table
+      thead
+        tr
+          th Category
+          th Points
+      tbody
+        +row('25 PASS YDS', '1')
+        +row('PASS TD', '6')
+        +row('INT', '-2')
+        +row('10 RUSH YDS', '1')
+        +row('RUSH TD', '6')
+        +row('10 REC YDS', '1')
+        +row('REC TD', '6')
+        +row('RET TD', '6')
+        +row('2-PT CONV', '2')
+        +row('FUMB LOST', '-2')
+        +row('FUMB RET TD', '6')
+    h3 Kickers
+    table
+      thead
+        tr
+          th Category
+          th Points
+      tbody
+        +row('FG 0-39 YDS', '3')
+        +row('FG 40-49 YDS', '4')
+        +row('FG 50+ YDS', '5')
+        +row('FG MISS', '-1')
+        +row('PAT', '1')
+        +row('PAT MISS', '-1')
+    h3 Defense
+    table
+      thead
+        tr
+          th Category
+          th Points
+      tbody
+        tr
+          +row('TACK SOLO', '0.5')
+          +row('TACK LOSS', '1')
+          +row('TACK ASSIST', '0.25')
+          +row('SACK', '2')
+          +row('INT', '3')
+          +row('FUM FORCE', '3')
+          +row('FUM REC', '3')
+          +row('DEF TD', '6')
+          +row('SAFETY', '4')
+          +row('PASS DEF', '1')
+          +row('BLOCK KICK', '4')
+  div#general.column
+    h1.desktop= title
+    h2 General
+    ol
+      li Draft to be held live offline every year.
+      li Winner of previous season to be bowed to by all other players.  The bowing ceremony involves three bows and chanting "You are the greatest!" with each bow.  Kneeling is strongly suggested.
+      li $40 entry fee.  $250 to first, $100 to second, $50 to third.
+      li Head-to-head matchups
+      li No playoffs.  Best record wins, total points break ties.
+      li Fractional points allowed.
+      li Negative points allowed.
+      li All rule changes involve a majority vote.  For the current 10 man league, this means a minimum of 6 people must vote in favor for a rule to change.
+    h2 Waivers
+    ol
+      li Waiver time 2 days after drop.
+      li All free agents become waivers when their game starts.  They become free agents again the following Tuesday.
+      li Initial waiver order to be randomized at draft.
+    h2 Trades
+    ol
+      li No trade dealine.
+      li Trade veto vote time 2 days.
+    h2 Draft
+    ol
+      li Draft follows snake pattern
+      li Draft order determined by random card draw.
+      li 4th place from the previous season chooses the first card.  The player picks 4 cards of their choosing, turns them face down, and randomly draws 1.  The other 9 players draw from the remaining 9 cards.

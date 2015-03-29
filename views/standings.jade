@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  include header-statbook
+  div.table-holder
+    table#season-standings
+      thead
+        tr
+          th
+          each season, i in seasons
+            th= season.year
+        each row, i in standings
+          tr
+            td= i + 1
+            each column, j in row
+              - var lower = (typeof column === 'string') ? column.toLowerCase() : '';
+              td(class=lower)= column
