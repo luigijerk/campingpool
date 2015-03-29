@@ -1,0 +1,110 @@
+extends layout
+
+block content
+  include header-statbook
+  h2 Search Results:
+  p.desc= resultsMessage
+  if isSuccessfulQuery
+    div.table-holder
+      table.results
+        thead
+          tr
+            for column, i in tableHeading
+              th= column
+        tbody
+          for row, i in resultSet
+            tr
+              td= row.name
+              td= row.total
+              td= row.average
+  div#box
+    form(name="form", action="", method="get" autocomplete="off")
+      div.search
+        p: strong Select the type of stat to look up:
+        input(type="radio", id="points", name="search_type", value="points", checked)
+        label(for="search_type") Points Scored
+        br
+        input(type="radio", id="points_against", name="search_type", value="points_against")
+        label(for="points_against") Points Against
+        br
+        input(type="radio", id="record" name="search_type", value="record")
+        label(for="record") Record (win-loss)
+        br
+        p: strong Would you like to search against certain opponents?
+        input(type="radio", id="opp_yes", name="toggle_opponent", value="1")
+        label(for="opp_yes") Yes
+        br
+        input(type="radio", id="opp_no", name="toggle_opponent", value="0", checked)
+        label(for="opp_no") No
+        br
+        input(type="submit", name="Submit", value="Submit Seatch")
+      div.search
+        p: strong Which player(s) would you like to look up?
+        input(type="checkbox", id="all_p", value="1")
+        label(for="all_p") Select All
+        br
+        br
+        for playerName, i in playerNames
+          input(type="checkbox", id="player_" + i, name="player[]", value=playerName)
+          label(for="player_" + i)= playerName
+          br
+      div.search
+        p: strong Which opponent(s) would you like?
+        input(type="checkbox", id="all_o", value="1", disabled)
+        label(for="all_o") Select All
+        br
+        br
+        for playerName, i in playerNames
+          input(type="checkbox", id="opponent_" + i, name="opponent[]", value=playerName, disabled)
+          label(for="opponent_" + i)= playerName
+          br
+      div.search
+        p: strong What time period?
+        label(for="year_start") Starting Year
+        br
+        select(id="year_start", name="year_start")
+          for year, i in years
+            option(value=year)= year
+        br
+        label(for="year_end") Ending Year
+        br
+        select(id="year_end", name="year_end")
+          - var max = Math.max.apply(Math, years)
+          for year, i in years
+            if year == max
+              option(value=year, selected)= year
+            else
+              option(value=year)= year
+        br
+        br
+        label(for="week_start") Starting Week
+        br
+        select(id="week_start", name="week_start")
+          - var count = 1
+          while count < 18
+            option(value=count)= count++
+        br
+        label(for="week_end") Ending Week
+        br
+        select(id="week_end", name="week_end")
+          - var count = 1
+          while count < 18
+            if count == 17
+              option(value=count, selected)= count++
+            else
+              option(value=count)= count++
+      div.search
+        p: strong Additional Options
+        input(type="checkbox", id="margin", name="margin" value="1" disabled)
+        label(for="margin") Check Record by Win Margin
+        br
+        br
+        label(for="min_marg") Minimum Win Margin
+        br
+        input(type="text", id="min_marg", name="min_marg", maxLength="6", value="0", disabled)
+        br
+        label(for="max_marg") Maximum Win Margin
+        br
+        input(type="text", id="max_marg", name="max_marg", maxlength="6", value="999.99", disabled)
+block scripts
+  script(src="/javascripts/machine.js")

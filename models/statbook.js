@@ -1,15 +1,14 @@
 //var util = require('util');
-var helper = require('../helpers')
+var helper = require('../helpers');
 var model = {};
 
 var getPlayers = function(season) {
-  var matches = getMatchesArray(season);
-  var playersObjectArray = getPlayerObjectArray(matches);
-  populatePlayerRecord(playersObjectArray, matches);
+  var playersObjectArray = getPlayerObjectArray(season);
+  populatePlayerRecord(playersObjectArray, season);
   populatePlayerWinPercentage(playersObjectArray);
   populatePlayerMiscStats(playersObjectArray, season);
-  populatePlayerPoints(playersObjectArray, matches);
-  populatePlayerPointsAllowed(playersObjectArray, matches);
+  populatePlayerPoints(playersObjectArray, season);
+  populatePlayerPointsAllowed(playersObjectArray, season);
   populateAdjustedRatios(season);
   populateAdjustedPoints(playersObjectArray, season);
   populateAdjustedPointsAllowed(playersObjectArray, season);
@@ -49,8 +48,10 @@ function getMatchesArray(season) {
   }
   return matches;
 }
+model.getMatchesArray = getMatchesArray;
 
-function getPlayerObjectArray(matches) {
+function getPlayerObjectArray(season) {
+  var matches = getMatchesArray(season);
   var names = [];
   for (var i = 0; i < matches.length; i++) {
     if (names.indexOf(matches[i].player_a) < 0) {
@@ -86,7 +87,8 @@ function getPlayerObjectArray(matches) {
   return nameObjs;
 }
 
-function populatePlayerRecord(players, matches) {
+function populatePlayerRecord(players, season) {
+  var matches = getMatchesArray(season);
   var win_a, win_b, draw;
   for (var j = 0; j < matches.length; j++) {
     if (parseFloat(matches[j].score_a) > parseFloat(matches[j].score_b)) {
@@ -120,7 +122,8 @@ function populatePlayerRecord(players, matches) {
 
 function populatePlayerWinPercentage(players) {
   for (var i = 0; i < players.length; i++) {
-    players[i].percentage = ((players[i].win + 0.5 * players[i].draw) / (players[i].games) * 100).toFixed(1);
+    var games = players[i].games == 0 ? 1 : players[i].games;
+    players[i].percentage = ((players[i].win + 0.5 * players[i].draw) / games * 100).toFixed(1);
   }
 }
 
@@ -142,7 +145,8 @@ function populatePlayerMiscStats(players, season) {
   }
 }
 
-function populatePlayerPoints(players, matches) {
+function populatePlayerPoints(players, season) {
+  var matches = getMatchesArray(season);
   for (var j = 0; j < matches.length; j++) {
     for (var k = 0; k < players.length; k++) {
       if (matches[j].player_a == players[k].name) {
@@ -153,12 +157,14 @@ function populatePlayerPoints(players, matches) {
     }
   }
   for (var i = 0; i < players.length; i++) {
-    players[i].pointsAverageWeek = (players[i].points / players[i].games).toFixed(2);
+    var games = players[i].games == 0 ? 1 : players[i].games;
+    players[i].pointsAverageWeek = (players[i].points / games).toFixed(2);
     players[i].points = players[i].points.toFixed(2);
   }
 }
 
-function populatePlayerPointsAllowed(players, matches) {
+function populatePlayerPointsAllowed(players, season) {
+  var matches = getMatchesArray(season);
   for (var j = 0; j < matches.length; j++) {
     for (var k = 0; k < players.length; k++) {
       if (matches[j].player_a == players[k].name) {
@@ -169,7 +175,8 @@ function populatePlayerPointsAllowed(players, matches) {
     }
   }
   for (var i = 0; i < players.length; i++) {
-    players[i].pointsAllowedAverageWeek = (players[i].pointsAllowed / players[i].games).toFixed(2);
+    var games = players[i].games == 0 ? 1 : players[i].games;
+    players[i].pointsAllowedAverageWeek = (players[i].pointsAllowed / games).toFixed(2);
     players[i].pointsAllowed = players[i].pointsAllowed.toFixed(2);
   }
 }
@@ -187,7 +194,8 @@ function populateAdjustedPoints(players, season) {
     }
   }
   for (var i = 0; i < players.length; i++) {
-    players[i].aPointsAverageWeek = (players[i].aPoints / players[i].games).toFixed(2);
+    var games = players[i].games == 0 ? 1 : players[i].games;
+    players[i].aPointsAverageWeek = (players[i].aPoints / games).toFixed(2);
     players[i].aPoints = players[i].aPoints.toFixed(2);
   }
 }
@@ -205,7 +213,8 @@ function populateAdjustedPointsAllowed(players, season) {
     }
   }
   for (var i = 0; i < players.length; i++) {
-    players[i].aPointsAllowedAverageWeek = (players[i].aPointsAllowed / players[i].games).toFixed(2);
+    var games = players[i].games == 0 ? 1 : players[i].games;
+    players[i].aPointsAllowedAverageWeek = (players[i].aPointsAllowed / games).toFixed(2);
     players[i].aPointsAllowed = players[i].aPointsAllowed.toFixed(2);
   }
 }

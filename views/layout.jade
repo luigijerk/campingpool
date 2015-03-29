@@ -3,8 +3,10 @@ html
   head
     title= 'Camping Pool | ' + title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/javascripts/columns.js")
   body(id=id)
     if toTop
       a(name="jump")
     include header
     block content
+    block scripts

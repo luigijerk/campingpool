@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
       "news" : items,
       "title" : "News",
       "id" : "news",
-      "url" : "news"
+      "slug" : "news"
     });
   });
 });
@@ -26,7 +26,7 @@ router.get('/players', function(req, res) {
       "players" : items,
       "title" : "Player Bios",
       "id" : "players",
-      "url" : "players"
+      "slug" : "players"
     });
   });
 });
@@ -36,7 +36,7 @@ router.get('/hof', function(req, res) {
   res.render('hof', {
     "title" : "Hall of Fame",
     "id" : "hof",
-    "url" : "hof"
+    "slug" : "hof"
   });
 });
 
@@ -51,7 +51,7 @@ router.get('/history', function(req, res) {
       "history" : items,
       "title" : "League History",
       "id" : "history",
-      "url" : "history",
+      "slug" : "history",
       "toTop" : true
     });
   });
@@ -62,7 +62,7 @@ router.get('/sidebets', function(req, res) {
   res.render('sidebets', {
     "title" : "Side Bets",
     "id" : "sidebets",
-    "url" : "sidebets"
+    "slug" : "sidebets"
   });
 });
 
@@ -71,7 +71,7 @@ router.get('/rules', function(req, res) {
   res.render('rules', {
     "title" : "Rules",
     "id" : "rules",
-    "url" : "rules"
+    "slug" : "rules"
   });
 });
 

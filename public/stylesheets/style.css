@@ -5,9 +5,6 @@
 .right {
     float: right;
 }
-.column {
-    min-height: 900px;
-}
 
 @media screen and (max-width:767px) {
     .desktop {
@@ -315,25 +312,21 @@ h1 + .post-date {
     padding: 0 10px;
     vertical-align: top;
 }
-#machine #box .search b {
+#machine #box .search strong {
     margin-bottom: 10px;
     display: block;
+    min-height: 36px;
 }
-#machine #box .search:first-child p:nth-of-type(2) b {
+#machine #box .search:first-child p:nth-of-type(2) strong {
     margin-top: 30px;
 }
 #machine #box .search input[type="submit"] {
     position: absolute;
     bottom: 30px;
 }
-#machine #box .search select {
+#machine #box .search select, #machine #box .search input[type="text"] {
+    margin-top: 4px;
     margin-bottom: 15px;
-}
-#machine #box .search select:nth-child(even) {
-    margin-bottom: 30px;
-}
-#machine #box .search input[type="text"] {
-    margin-top: 15px;
 }
 #machine #box .search input[type="checkbox"] {
     margin-right: 10px;

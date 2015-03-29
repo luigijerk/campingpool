@@ -1,5 +1,5 @@
 mixin menuItem(activeUrl, menuString)
-  if (url==activeUrl)
+  if (subSlug==activeUrl)
     h1.active: a(href="/" + activeUrl)= menuString
   else
     h1: a(href="/" + activeUrl)= menuString

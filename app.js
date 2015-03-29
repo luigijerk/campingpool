@@ -10,6 +10,7 @@ var db = mongo.db("mongodb://localhost:27017/campingpool", {native_parser:true})
 
 var routes = require('./routes/index');
 var statbook = require('./routes/statbook');
+var data = require('./routes/data');
 
 var app = express();
 
@@ -32,6 +33,7 @@ app.use(function(req,res,next){
 
 app.use('/', routes);
 app.use('/statbook', statbook);
+app.use('/data', data);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
