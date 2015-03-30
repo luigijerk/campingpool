@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9ff9331-2ea0-4b5a-9c13-f408f7170299" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\node.js\campingpool\routes\users.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header-statbook.jade" afterPath="$PROJECT_DIR$/views/header-statbook.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.jade" afterPath="$PROJECT_DIR$/views/header.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/history.jade" afterPath="$PROJECT_DIR$/views/history.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rules.jade" afterPath="$PROJECT_DIR$/views/rules.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sidebets.jade" afterPath="$PROJECT_DIR$/views/sidebets.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/statbook.jade" afterPath="$PROJECT_DIR$/views/statbook.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/statbook.js" afterPath="$PROJECT_DIR$/models/statbook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/statbook.js" afterPath="$PROJECT_DIR$/routes/statbook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/data.jade" afterPath="$PROJECT_DIR$/views/data.jade" />
     </list>
     <ignored path="campingpool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,8 +50,8 @@
       <file leaf-file-name="data.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/data.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.072135784" vertical-offset="0" max-vertical-offset="707">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.048991356" vertical-offset="0" max-vertical-offset="694">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -761,14 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/machine.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1955">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43281472" vertical-offset="0" max-vertical-offset="1428">
@@ -817,10 +795,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/machine.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82853025" vertical-offset="1261" max-vertical-offset="1955">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="109" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/data.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.072135784" vertical-offset="0" max-vertical-offset="707">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.048991356" vertical-offset="0" max-vertical-offset="694">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
